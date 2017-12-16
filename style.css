@@ -1,0 +1,138 @@
+html {
+    width: 1000px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header img {
+    z-index: 10;
+    top: 2px;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+}
+
+.header h1 {
+    margin: 20px 0px 0px 80px;
+    color: rgb(71, 71, 71);
+    font-size: 40px;
+}
+
+.blue-text {
+    color: rgb(34, 101, 158);
+}
+
+.red-text {
+    color: rgb(217, 35, 28);
+}
+
+.header h2:before {
+    background: linear-gradient(rgb(43, 107, 161), rgb(82, 132, 173), rgb(43, 107, 161));
+    padding: 15px 10px;
+    content: "";
+}
+
+.header h2 {
+    margin-top: 0px;
+    padding: 15px 0px;
+    font-size: 25px;
+    color: white;
+    background: linear-gradient(rgb(43, 107, 161), rgb(82, 132, 173), rgb(43, 107, 161));
+}
+
+.left-info {
+    font-weight: bold;
+    font-size: 18px;
+    width: 200px;
+    margin: 0px;
+    float: left;
+}
+
+.left-info p {
+    font-size: 14px;
+}
+
+.button {
+    padding: 8px 10px 10px 10px;
+    margin: 2px 0;
+    color: white;
+    width: 200px;
+    border-radius: 4px;
+    border: none;
+}
+
+#blue-button {
+    background: linear-gradient(rgb(90, 145, 190), rgb(42, 107, 163));
+}
+
+#orange-button {
+    background: linear-gradient(rgb(234, 171, 82), rgb(240, 118, 0));
+}
+
+.left-hr {
+    margin: 25px 0;
+}
+
+.left-ad {
+    color: white;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+}
+
+.left-ad img {
+    position: absolute;
+    width: 100%;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+.left-ad h3 {
+    margin: 0px 20px 0px 20px;
+    position: absolute;
+    text-align: center;
+    line-height: 150%;
+    color: white;
+    top: 20px;
+}
+
+#ninja {
+    width: 80px;
+    box-shadow: none;
+    left: 55px;
+    top: 100px;
+}
+
+#learn-more {
+    background: linear-gradient(rgb(107, 207, 223), rgb(0, 193, 223));
+    box-shadow: 3px 3px 5px black;
+    position: absolute;
+    width: 80%;
+    top: 220px;
+    left: 20px;
+}
+.main-content {
+    display: inline-block;
+    width: 700px;
+    margin-left: 35px;
+}
+.main-content-header {
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+#home {
+    width: 20px;
+    height: 20px;
+}
+#phone {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+.main-content-header span {
+    font-weight: bold;
+}
+.phone-number {
+    text-align: center;
+    display: inline-block;
+}
